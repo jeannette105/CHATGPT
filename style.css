@@ -1,0 +1,151 @@
+body {
+    margin: 5px;
+    padding: 0;
+    font-family: ui-sans-serif, system-ui, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+    opacity: 0.6;
+    margin: 15px;
+    font-size: 20px;
+}
+.logo i {
+    margin-right: 5px;
+}
+.logo button {
+    background-color: rgb(255, 255, 255);
+    border: 0;
+    font-size: 18px;
+    line-height: 28px;
+}
+.logo button i {
+   font-size: 12px;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 13px;
+}
+.menu button {
+    border-radius: 20px;
+}
+.connexion {
+    background-color: rgb(0, 0, 0);
+    width: 110px;
+    color: rgb(255, 255, 255);
+}
+.inscription {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    width: 80px;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+} 
+
+/* search */
+
+.search {
+    margin-top: 7%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 27px;
+}
+.Contenu {
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    border-radius: 18px;
+    box-shadow: 2px 2px 2px 2px rgba(41, 41, 41, 0.24);
+    width: 60%;
+    margin-left: 250px;
+}
+.plus {
+    margin-left: 2%;
+    margin-bottom: 100;
+    font-size: 200%;
+    border-radius: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    opacity: 0.1;
+}
+.télécharger {
+   margin-left: 400px;
+   margin-bottom: 100;
+   font-size: 200%;
+   border-radius: 16px;
+   border: 1px solid rgba(0, 0, 0, 0.219);
+   opacity: 0.2;
+}
+.Contenu h4 {
+    margin-top: 10px;
+    font-weight: normal;
+    opacity: 0.5;
+    margin-left: 19px;
+}
+.mot {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    border-radius: 100px;
+    padding: 9px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.phrase {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    border-radius: 100px;
+    margin-left: 4px;
+    padding: 9px;
+}
+
+/* list */
+
+.list {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.list button {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    box-shadow: 2px 2px 2px 2px rgba(41, 41, 41, 0.096);
+    border-radius: 100px;
+    opacity: 0.8;
+    padding: 15px;
+    margin-right: 10px;
+}
+.list i {
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.list .but1 i {
+    color: rgb(255, 106, 0);
+}
+.list .But2 i {
+    color: rgb(213, 194, 20);
+}
+.list .but3 i {
+    color: rgb(20, 178, 213);
+}
+.list .BUT4 i {
+    color: rgb(20, 178, 213);
+}
+
+/* footer */
+
+.Fin {
+    text-align: center;
+    margin-top: 120px;
+}
+p {
+    font-size: 14px;
+}
+a {
+    font-weight: 400;
+    color: #000;
+}
